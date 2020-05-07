@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+    <line>
+      <![CDATA[<br>Verification failure : expected [https://event.on24.com/eventRegistration/EventLobbyServlet?target=reg30.jsp&partnerref=DC&eventid=2306191&sessionid=1&key=04FB4597ACF608DF050936D31AE35101&regTag=&sourcepage=register] but found [https://www.cognizant.com/]<br>]]>
+    </line>
+    <line>
+      <![CDATA[<a target="_blank" href=Wed_May_06_21_22_36_EDT_2020.jpg><img src=Wed_May_06_21_22_36_EDT_2020.jpg height=200 width=200></img></a>]]>
+    </line>
+    <line>
+      <![CDATA[<br>]]>
+    </line>
+    <line>
+      <![CDATA[<br>]]>
+    </line>
+  </reporter-output>
+  <suite name="Cognizant" duration-ms="17392" started-at="2020-05-07T01:22:19Z" finished-at="2020-05-07T01:22:37Z">
+    <groups>
+    </groups>
+    <test name="SimpleLinksTest" duration-ms="10012" started-at="2020-05-07T01:22:19Z" finished-at="2020-05-07T01:22:29Z">
+      <class name="com.cognizant.testcases.SimpleLinksTest">
+        <test-method status="PASS" signature="readSettings(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.cognizant.testcases.SimpleLinksTest@2657d4dd]" name="readSettings" is-config="true" duration-ms="15" started-at="2020-05-06T21:22:19Z" finished-at="2020-05-06T21:22:19Z">
+          <params>
+            <param index="0">
+              <value is-null="true"/>
+            </param>
+            <param index="1">
+              <value is-null="true"/>
+            </param>
+            <param index="2">
+              <value is-null="true"/>
+            </param>
+            <param index="3">
+              <value is-null="true"/>
+            </param>
+            <param index="4">
+              <value is-null="true"/>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- readSettings -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.cognizant.testcases.SimpleLinksTest@2657d4dd]" name="setup" is-config="true" duration-ms="2327" started-at="2020-05-06T21:22:20Z" finished-at="2020-05-06T21:22:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="validateLink()[pri:0, instance:com.cognizant.testcases.SimpleLinksTest@2657d4dd]" name="validateLink" duration-ms="7157" started-at="2020-05-06T21:22:22Z" finished-at="2020-05-06T21:22:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateLink -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.cognizant.testcases.SimpleLinksTest@2657d4dd]" name="tearDown" is-config="true" duration-ms="189" started-at="2020-05-06T21:22:29Z" finished-at="2020-05-06T21:22:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.cognizant.testcases.SimpleLinksTest -->
+    </test> <!-- SimpleLinksTest -->
+    <test name="NoJSLinksTest" duration-ms="7351" started-at="2020-05-07T01:22:30Z" finished-at="2020-05-07T01:22:37Z">
+      <class name="com.cognizant.testcases.NoJSLinksTest">
+        <test-method status="PASS" signature="readSettings(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.cognizant.testcases.NoJSLinksTest@66ea810]" name="readSettings" is-config="true" duration-ms="1" started-at="2020-05-06T21:22:30Z" finished-at="2020-05-06T21:22:30Z">
+          <params>
+            <param index="0">
+              <value is-null="true"/>
+            </param>
+            <param index="1">
+              <value is-null="true"/>
+            </param>
+            <param index="2">
+              <value is-null="true"/>
+            </param>
+            <param index="3">
+              <value is-null="true"/>
+            </param>
+            <param index="4">
+              <value is-null="true"/>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- readSettings -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.cognizant.testcases.NoJSLinksTest@66ea810]" name="setup" is-config="true" duration-ms="1480" started-at="2020-05-06T21:22:30Z" finished-at="2020-05-06T21:22:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="validateLinkNoJS()[pri:0, instance:com.cognizant.testcases.NoJSLinksTest@66ea810]" name="validateLinkNoJS" duration-ms="5485" started-at="2020-05-06T21:22:31Z" finished-at="2020-05-06T21:22:36Z">
+          <reporter-output>
+            <line>
+              <![CDATA[<br>Verification failure : expected [https://event.on24.com/eventRegistration/EventLobbyServlet?target=reg30.jsp&partnerref=DC&eventid=2306191&sessionid=1&key=04FB4597ACF608DF050936D31AE35101&regTag=&sourcepage=register] but found [https://www.cognizant.com/]<br>]]>
+            </line>
+            <line>
+              <![CDATA[<a target="_blank" href=Wed_May_06_21_22_36_EDT_2020.jpg><img src=Wed_May_06_21_22_36_EDT_2020.jpg height=200 width=200></img></a>]]>
+            </line>
+            <line>
+              <![CDATA[<br>]]>
+            </line>
+            <line>
+              <![CDATA[<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- validateLinkNoJS -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.cognizant.testcases.NoJSLinksTest@66ea810]" name="tearDown" is-config="true" duration-ms="247" started-at="2020-05-06T21:22:37Z" finished-at="2020-05-06T21:22:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.cognizant.testcases.NoJSLinksTest -->
+    </test> <!-- NoJSLinksTest -->
+  </suite> <!-- Cognizant -->
+</testng-results>
