@@ -4,10 +4,10 @@
            failures="0"
            errors="0"
            skipped="0"
-           time="5.485">
+           time="4.918">
   <properties />
   
   
-            <testcase name="validateLinkNoJS" time="5.485" classname="com.cognizant.testcases.NoJSLinksTest" />
+            <testcase name="validateLinkNoJS" time="4.918" classname="com.cognizant.testcases.NoJSLinksTest" />
       
 </testsuite>

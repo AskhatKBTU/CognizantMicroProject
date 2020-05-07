@@ -4,10 +4,10 @@
            failures="0"
            errors="0"
            skipped="0"
-           time="7.157">
+           time="6.823">
   <properties />
   
   
-            <testcase name="validateLink" time="7.157" classname="com.cognizant.testcases.SimpleLinksTest" />
+            <testcase name="validateLink" time="6.823" classname="com.cognizant.testcases.SimpleLinksTest" />
       
 </testsuite>
