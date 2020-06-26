@@ -1,6 +1,7 @@
 package com.cognizant.listeners;
 
 import java.io.IOException;
+import java.sql.SQLException;
 
 import org.testng.ITestContext;
 import org.testng.ITestListener;

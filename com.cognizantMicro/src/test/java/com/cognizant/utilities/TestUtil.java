@@ -3,6 +3,10 @@ package com.cognizant.utilities;
 import java.io.File;
 import java.io.IOException;
 import java.lang.reflect.Method;
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.PreparedStatement;
+import java.sql.SQLException;
 import java.util.Date;
 import java.util.Hashtable;
 
@@ -85,7 +89,6 @@ public class TestUtil extends TestSuperClass {
 	}
 	
 	
-	
-	
+
 	
 }

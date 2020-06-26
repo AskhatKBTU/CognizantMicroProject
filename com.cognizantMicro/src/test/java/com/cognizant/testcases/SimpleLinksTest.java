@@ -20,7 +20,6 @@ public class SimpleLinksTest extends TestSuperClass {
 	public void validateLink() throws Exception {
 	
 	if(!(TestUtil.isTestRunnable("SimpleLinksTest", excel))){
-			
 			throw new SkipException("Skipping the test "+"openAccountTest".toUpperCase()+ "as the Run mode is NO");
 		}	
 			

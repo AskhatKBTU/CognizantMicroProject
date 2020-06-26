@@ -3,11 +3,13 @@
            tests="1"
            failures="0"
            errors="0"
-           skipped="0"
-           time="4.918">
+           skipped="1"
+           time="0.003">
   <properties />
   
+            <testcase name="validateLinkNoJS" time="0.0" classname="com.cognizant.testcases.NoJSLinksTest">
+          <skipped />
+    </testcase>
   
-            <testcase name="validateLinkNoJS" time="4.918" classname="com.cognizant.testcases.NoJSLinksTest" />
-      
+  
 </testsuite>
